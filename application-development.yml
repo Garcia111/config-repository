@@ -1,0 +1,26 @@
+server:
+  mysql:
+    hostname: localhost
+    port: 3306
+    database:
+      access-center:
+        name: test
+        username: root
+        password: root
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password: root
+
+  rabbitmq:
+    addresses: 127.0.0.1
+    port: 5672
+    username: root
+    password: root
+
+datasource:
+  driver-class-name: com.mysql.jdbc.Driver
+
+
+
+
